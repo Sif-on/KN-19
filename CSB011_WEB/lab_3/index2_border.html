@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lab_2_border</title>
+	<link href='//fontsforweb.com/font/getcss?id=9782&apikey=77c819ddcab212023f10fcb6d0b235e1' rel='stylesheet'
+		type='text/css'>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Magneto&display=swap');
+
+		html {
+			overflow: hidden;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		body {
+			padding: 0;
+			margin: 0;
+		}
+
+		/* Desktop */
+		.desktop_1 {
+			position: relative;
+			width: 1440px;
+			height: 1024px;
+			background: #fff;
+		}
+
+		/* Block */
+		.block_1 {
+			position: absolute;
+			width: 396px;
+			height: 333px;
+			left: 175px;
+			top: 120px;
+			border-color: #8DE97E  rgba(221, 133, 0, 0.19) #000 #DD0000;
+			border-style: solid;
+			border-width: 4px 12px 30px 8px;
+			background: rgba(255, 107, 0, 0.13);
+		}
+
+		.block_2 {
+			position: absolute;
+			height: 348px;
+			width: 375px;
+			left: 634px;
+			top: 127px;
+			border-color: #46BCFF  rgba(82, 89, 84, 0.19) #FD3030 #C71D83;
+			border-style: solid;
+			border-width: 4px 12px 10px 12px;
+		}
+
+		/* Text: Block */
+		.text_block_1 {
+			position: absolute;
+			width: 209px;
+			height: 36px;
+			left: 175px;
+			top: 86px;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 36px;
+			color: #000;
+		}
+
+		.text_block_2 {
+			position: absolute;
+			width: 115px;
+			height: 21px;
+			left: 654px;
+			top: 177px;
+			font-family: 'Peralta', cursive;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 21px;
+			color: #000;
+		}
+
+		/* image */
+		.image_1 {
+			position: absolute;
+			width: 293px;
+			height: 183px;
+			/* left: 681px;
+			top: 286px; */
+			left: 47px;
+			top: 190px;
+			background: url(https://pngimg.com/uploads/bush/bush_PNG7214.png);
+			background-size: cover;
+		}
+
+		.image_2 {
+			position: absolute;
+			width: 375px;
+			height: 34px;
+			background: url(https://pngimg.com/uploads/grass/grass_PNG10860.png);
+			background-size: cover;
+			transform: matrix(1, 0, 0, -1, 0, 0);
+		}
+	</style>
+</head>
+
+<body>
+	<div class="desktop_1">
+		<div class="text_block_1 fontsforweb_MAGNETOB">Text: Block 1</div>
+		<div class="text_block_2">Text: Block 2</div>
+		<div class="block_1"></div>
+		<div class="block_2">
+			<div class="image_1"></div>
+			<div class="image_2"></div>
+		</div>
+	</div>
+
+</body>
+
+</html>
