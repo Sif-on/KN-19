@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Magneto&display=swap');
+
+		html {
+			overflow: hidden;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		body {
+			padding: 0;
+			margin: 0;
+		}
+
+		/* Desktop */
+		.desktop_1 {
+			position: relative;
+			width: 1440px;
+			height: 1024px;
+			background: #d8dafa;
+		}
+
+		/* Rectangle */
+		.rectangle_1 {
+			position: absolute;
+			width: 396px;
+			height: 333px;
+			left: 179px;
+			top: 120px;
+			background: rgba(255, 107, 0, 0.13);
+		}
+
+		/* Line */
+		.line_1 {
+			position: absolute;
+			width: 326px;
+			height: 0px;
+			left: calc(175px - 326px / 2);
+			top: calc(127px + 326px / 2);
+			border: 8px solid #DD0000;
+			transform: rotate(90deg);
+		}
+
+		.line_2 {
+			position: absolute;
+			width: 391px;
+			height: 0px;
+			left: 175px;
+			top: 125px;
+			border: 4px solid #8DE97E;
+		}
+
+		.line_3 {
+			position: absolute;
+			width: 331px;
+			height: 0px;
+			left: calc(563px - 331px / 2);
+			top: calc(122px + 331px / 2);
+			border: 12px solid rgba(221, 133, 0, 0.19);
+			transform: rotate(90deg);
+		}
+
+		.line_4 {
+			position: absolute;
+			width: 400px;
+			height: 0px;
+			left: 175px;
+			top: 453px;
+			border: 30px solid #000000;
+		}
+
+		.line_5 {
+			position: absolute;
+			width: 326px;
+			height: 0px;
+			left: calc(634px - 326px / 2);
+			top: calc(129px + 326px / 2);
+			border: 12px solid #C71D83;
+			transform: rotate(90deg);
+		}
+
+		.line_6 {
+			position: absolute;
+			width: 385px;
+			height: 0px;
+			left: 640px;
+			top: 131px;
+			border: 4px solid #46BCFF;
+		}
+
+		.line_7 {
+			position: absolute;
+			width: 400px;
+			height: 0px;
+			left: 634px;
+			top: 455px;
+			border: 10px solid #FD3030;
+		}
+
+		.line_8 {
+			position: absolute;
+			width: 331px;
+			height: 0px;
+			left: calc(1022px - 331px / 2);
+			top: calc(127px + 331px / 2);
+			border: 12px solid rgba(82, 89, 84, 0.19);
+			transform: rotate(90deg);
+		}
+
+		/* Text: Block */
+		.text_block_1 {
+			position: absolute;
+			width: 209px;
+			height: 36px;
+			left: 175px;
+			top: 86px;
+			font-family: magneto, sans-serif;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 30px;
+			line-height: 36px;
+			color: #000000;
+		}
+
+		.text_block_2 {
+			position: absolute;
+			width: 115px;
+			height: 21px;
+			left: 654px;
+			top: 177px;
+			font-family: 'Peralta', cursive;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 21px;
+			color: #000000;
+		}
+
+		/* image */
+
+		.image_1 {
+			position: absolute;
+			width: 293px;
+			height: 183px;
+			left: 681px;
+			top: 286px;
+			background: url(https://pngimg.com/uploads/bush/bush_PNG7214.png);
+			background-size: cover;
+		}
+
+		.image_2 {
+			position: absolute;
+			width: 375px;
+			height: 34px;
+			left: 646px;
+			top: 133px;
+			background: url(https://pngimg.com/uploads/grass/grass_PNG10860.png);
+			background-size: cover;
+			transform: matrix(1, 0, 0, -1, 0, 0);
+		}
+	</style>
+</head>
+
+<body>
+	<div class="desktop_1">
+		<div class="rectangle_1"></div>
+		<div class="line_1"></div>
+		<div class="line_2"></div>
+		<div class="line_3"></div>
+		<div class="line_8"></div>
+		<div class="line_4"></div>
+		<div class="line_5"></div>
+		<div class="line_6"></div>
+		<div class="line_7"></div>
+		<div class="text_block_1">Text: Block 1</div>
+		<div class="text_block_2">Text: Block 2</div>
+		<div class="image_1"></div>
+		<div class="image_2"></div>
+	</div>
+
+</body>
+
+</html>
