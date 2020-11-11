@@ -16,6 +16,7 @@ CaslonAntique      — P
 	font-family: CaslonAntique;
 	src: url(fonts/CaslonAntique.otf);
 }
+
 /* Фановый шрифт
 PenguinAttackCyrillic — H1
 Marmelad              — P
@@ -24,6 +25,7 @@ Marmelad              — P
 	font-family: PenguinAttackCyrillic;
 	src: url(fonts/PenguinAttackCyrillic.otf);
 }
+
 /* Злой шрифт
 Ustroke-Regular — H1
 Spectral        — P
@@ -61,14 +63,12 @@ Akademische-schmalfette — comment "
 	padding: 0;
 	margin: 0;
 }
-
 body {
 	height: 100vh;
 	width: 1440px;
 	background-color: #00000017;
 	margin: 0 auto;
 }
-
 h1 {
 	padding-bottom: 35px;
 	font-weight: normal;
@@ -82,22 +82,18 @@ header {
 	height: 83px;
 	width: 100%;
 }
-
 header #menu {
 	height: 100%;
 	float: right;
 }
-
 nav ul {
 	list-style: none;
 }
-
 nav ul li {
 	float: left;
 	position: relative;
 	width: auto;
 }
-
 nav ul li a {
 	display: block;
 	padding: 29px 31px 28px;
@@ -114,7 +110,6 @@ nav ul li a {
 nav ul li a:hover {
 	color: #7c7c7c;
 }
-
 header .logo {
 	height: 100%;
 	width: 442px;
@@ -130,7 +125,6 @@ header .logo {
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 }
-
 .block {
 	position: relative;
 	overflow: hidden;
@@ -145,17 +139,14 @@ header .logo {
 	color: #fff;
 	height: 648px;
 }
-
 #block1 h1 {
 	font-size: 40px;
 	font-family: BleedingCowboysRUS;
 	padding-top: 163px;
 }
-
 #block1 .block-img {
 	float: left;
 }
-
 #block1 .txt {
 	width: 403px;
 	float: right;
@@ -179,7 +170,6 @@ header .logo {
 	font-family: PenguinAttackCyrillic;
 	text-align: center;
 }
-
 #block2 .block-img {
 	height: 292px;
 	width: 100%;
@@ -191,7 +181,6 @@ header .logo {
 #block2 .block-img img {
 	position: initial;
 }
-
 #block2 .block-img #img22 {
 	padding: 0 65px;
 }
@@ -325,7 +314,6 @@ header .logo {
 	font-family: NewStandardOldBold;
 	padding-bottom: 60px;
 }
-
 #block5 .txt {
 	width: 570px;
 	float: right;
@@ -347,7 +335,6 @@ header .logo {
 #block5 .txt .block-comment {
 	width: 570px;
 }
-
 #block5 .txt .block-comment p {
 	width: 492px;
 	font-size: 18px;
@@ -363,7 +350,6 @@ header .logo {
 	float: left;
 	transform: translateY(-35px);
 }
-
 #block5 .block-img {
 	height: 100%;
 	width: 100%;
