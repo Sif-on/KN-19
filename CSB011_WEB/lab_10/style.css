@@ -1,0 +1,391 @@
+/* Меню 
+Montserrat — Logo
+Montserrat — Button
+*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Marmelad&family=Montserrat:wght@400;500&family=Playfair+Display&family=Spectral&display=swap");
+
+/* Жуткий шрифт
+BleedingCowboysRUS — H1
+CaslonAntique      — P
+*/
+@font-face {
+	font-family: BleedingCowboysRUS;
+	src: url(fonts/BleedingCowboysRUS.ttf);
+}
+@font-face {
+	font-family: CaslonAntique;
+	src: url(fonts/CaslonAntique.otf);
+}
+/* Фановый шрифт
+PenguinAttackCyrillic — H1
+Marmelad              — P
+*/
+@font-face {
+	font-family: PenguinAttackCyrillic;
+	src: url(fonts/PenguinAttackCyrillic.otf);
+}
+/* Злой шрифт
+Ustroke-Regular — H1
+Spectral        — P
+*/
+@font-face {
+	font-family: Ustroke-Regular;
+	src: url(fonts/Ustroke-Regular.ttf);
+}
+
+/* Романтичный шрифт
+Nostalgia — H1
+Playfair Display       — P
+*/
+@font-face {
+	font-family: Nostalgia;
+	src: url(fonts/Nostalgia.ttf);
+}
+
+/* Деловой шрифт
+***RavenscroftCYR-Regular  — H1
+Playfair Display        — P
+Akademische-schmalfette — comment "
+*/
+@font-face {
+	font-family: NewStandardOldBold;
+	src: url(fonts/NewStandardOldBold.ttf);
+}
+@font-face {
+	font-family: Akademische-schmalfette;
+	src: url(fonts/Akademische-schmalfette.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	width: 1440px;
+	background-color: #00000017;
+	margin: 0 auto;
+}
+
+h1 {
+	padding-bottom: 35px;
+	font-weight: normal;
+}
+p {
+	padding-bottom: 25px;
+}
+header {
+	background: #fff;
+	display: block;
+	height: 83px;
+	width: 100%;
+}
+
+header #menu {
+	height: 100%;
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+	position: relative;
+	width: auto;
+}
+
+nav ul li a {
+	display: block;
+	padding: 29px 31px 28px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 160%;
+	color: #000;
+	transition: all 0.15s ease;
+}
+nav ul li a:hover {
+	color: #7c7c7c;
+}
+
+header .logo {
+	height: 100%;
+	width: 442px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 160%;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+}
+
+.block {
+	position: relative;
+	overflow: hidden;
+}
+.block-img,
+.block-img img {
+	position: absolute;
+}
+/* start Жуткий шрифт */
+#block1 {
+	background: #040410 url(img/img12.png) no-repeat scroll 100% 21px;
+	color: #fff;
+	height: 648px;
+}
+
+#block1 h1 {
+	font-size: 40px;
+	font-family: BleedingCowboysRUS;
+	padding-top: 163px;
+}
+
+#block1 .block-img {
+	float: left;
+}
+
+#block1 .txt {
+	width: 403px;
+	float: right;
+	margin: 0 185px;
+	font-family: CaslonAntique;
+	font-size: 22px;
+	line-height: 160%;
+}
+/* end Жуткий шрифт */
+
+/* start Фановый шрифт */
+#block2 {
+	background: #fff;
+	color: #000;
+	height: 735px;
+}
+#block2 h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	padding-top: 155px;
+	font-family: PenguinAttackCyrillic;
+	text-align: center;
+}
+
+#block2 .block-img {
+	height: 292px;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#block2 .block-img img {
+	position: initial;
+}
+
+#block2 .block-img #img22 {
+	padding: 0 65px;
+}
+#block2 .txt {
+	width: 545px;
+	margin: auto;
+	font-family: "Marmelad", sans-serif;
+	font-size: 18px;
+}
+#block2 p {
+	text-align: center;
+}
+/* end Фановый шрифт */
+
+/* start Злой шрифт */
+#block3 {
+	background: #ad4220;
+	color: #fff;
+	height: 648px;
+}
+#block3 h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+	padding-top: 163px;
+	font-family: Ustroke-Regular;
+}
+#block3 .txt {
+	width: 403px;
+	float: left;
+	margin: 0 124px;
+	font-family: "Spectral", serif;
+	font-size: 18px;
+}
+#block3 .block-img {
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#block3 .block-img #img31 {
+	width: 281.95px;
+	height: 324.83px;
+	top: -17.13px;
+	left: 570px;
+	transform: rotate(-28.86deg);
+}
+#block3 .block-img #img32 {
+	width: 434px;
+	height: 500px;
+	bottom: 3px;
+	right: 154px;
+}
+#block3 .block-img #img33 {
+	width: 341.23px;
+	height: 393.13px;
+	top: -24.49px;
+	right: -99.12px;
+	transform: rotate(-126.5deg);
+}
+/* end Злой шрифт */
+
+/* start Романтичный шрифт */
+#block4 {
+	background: #fefafb;
+	color: #484848;
+	height: 648px;
+}
+#block4 p {
+	padding-bottom: 27px;
+}
+#block4 h1 {
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-top: 181px;
+	font-family: Nostalgia;
+}
+#block4 .txt {
+	width: 403px;
+	float: left;
+	margin: 0 125px;
+	font-family: "Comfortaa", cursive;
+	font-size: 16px;
+}
+#block4 .block-img {
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#block4 .block-img #img41 {
+	height: 300px;
+	width: 249px;
+	top: 140px;
+	left: 698px;
+}
+#block4 .block-img #img42 {
+	height: 300px;
+	width: 247px;
+	top: 207px;
+	left: 1010px;
+}
+#block4 .block-img #img43 {
+	width: 169.35px;
+	height: 296.54px;
+	bottom: -13.28px;
+	left: -83.54px;
+	transform: rotate(-6.59deg);
+}
+#block4 .block-img #img44 {
+	width: 169.35px;
+	height: 296.54px;
+	top: -62.67px;
+	right: -29.23px;
+	transform: rotate(-138.24deg);
+}
+/* end Романтичный шрифт */
+
+/* start Деловой шрифт */
+#block5 {
+	background: #44484a;
+	color: #fff;
+	height: 648px;
+}
+#block5 h1 {
+	font-size: 50px;
+	padding-top: 160px;
+	font-family: NewStandardOldBold;
+	padding-bottom: 60px;
+}
+
+#block5 .txt {
+	width: 570px;
+	float: right;
+	margin-right: 172px;
+	font-size: 16px;
+	font-family: "Playfair Display", serif;
+}
+#block5 .txt .block-text {
+	width: 269px;
+	float: left;
+	padding-bottom: 44px;
+}
+#block5 .txt .col-one {
+	padding-right: 16px;
+}
+#block5 .txt .col-too {
+	padding-left: 16px;
+}
+#block5 .txt .block-comment {
+	width: 570px;
+}
+
+#block5 .txt .block-comment p {
+	width: 492px;
+	font-size: 18px;
+	font-style: italic;
+	font-family: Akademische-schmalfette;
+}
+#block5 .txt .comment {
+	padding-right: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+	letter-spacing: 0.05em;
+	float: left;
+	transform: translateY(-35px);
+}
+
+#block5 .block-img {
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#block5 .block-img #img41 {
+	height: 300px;
+	width: 249px;
+	top: 140px;
+	left: 698px;
+}
+/* end Деловой шрифт */
+
+footer {
+	font-size: 14px;
+	line-height: 150%;
+	background: #fff;
+	color: #4d4d4d;
+	height: 87px;
+	text-align: center;
+	padding: 33px 0;
+}
